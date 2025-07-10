@@ -6,3 +6,4 @@
 #
 
 LOCAL_PATH := device/samsung/a32x
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
