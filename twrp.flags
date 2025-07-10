@@ -1,0 +1,1 @@
+/super emmc /dev/block/bootdevice/by-name/super flags=backup=1;flashimg=1;display="Super Partition"
