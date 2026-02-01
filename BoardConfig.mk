@@ -2,6 +2,11 @@ DEVICE_PATH := device/samsung/a32x
 
 # Idk what this does but it allows the code to compile
 TARGET_SUPPORTS_64_BIT_APPS := true
+PRODUCT_SOONG_NAMESPACES += \
+    device/samsung/a32x \
+    vendor/samsung/a32x \
+    vendor/mediatek/opensource/interfaces
+
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,7 +34,7 @@ TARGET_BOOTLOADER_BOARD_NAME := k6853v1_64_titan
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 TARGET_USES_UEFI := true
-TARGET_USES_64_BIT_BINDER := true
+# TARGET_USES_64_BIT_BINDER := true
 
 # Display
 TARGET_SCREEN_DENSITY := 300
@@ -96,9 +101,9 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Hack: prevent anti rollback
-PLATFORM_SECURITY_PATCH := 2099-12-31
+# PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
-PLATFORM_VERSION := 16.1.0
+# PLATFORM_VERSION := 16.1.0
 
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
