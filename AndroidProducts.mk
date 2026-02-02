@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derpfest_a32x.mk
+    $(LOCAL_DIR)/lineage_a32x.mk
 
 COMMON_LUNCH_CHOICES := \
-    derpfest_a32x-user \
-    derpfest_a32x-userdebug \
-    derpfest_a32x-eng
+    lineage_a32x-user \
+    lineage_a32x-userdebug \
+    lineage_a32x-eng
