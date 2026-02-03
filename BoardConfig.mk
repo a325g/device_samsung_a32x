@@ -2,11 +2,6 @@ DEVICE_PATH := device/samsung/a32x
 
 # Idk what this does but it allows the code to compile
 TARGET_SUPPORTS_64_BIT_APPS := true
-PRODUCT_SOONG_NAMESPACES += \
-    device/samsung/a32x \
-    vendor/samsung/a32x \
-    vendor/mediatek/opensource/interfaces
-
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
