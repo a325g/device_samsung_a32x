@@ -9,3 +9,10 @@ LOCAL_PATH := device/samsung/a32x
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 INFINITY_BUILD_TYPE := UNOFFICIAL
 WITH_GAPPS := true
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/root/system/lib64/android.hardware.gatekeeper@1.0.so:recovery/root/system/lib64/android.hardware.gatekeeper@1.0.so \
+    $(LOCAL_PATH)/recovery/root/system/lib64/android.hardware.keymaster@4.0.so:recovery/root/system/lib64/android.hardware.keymaster@4.0.so \
+    $(LOCAL_PATH)/recovery/root/system/lib64/libkeymaster4.so:recovery/root/system/lib64/libkeymaster4.so \
+    $(LOCAL_PATH)/recovery/root/system/lib64/libkeymaster_portable.so:recovery/root/system/lib64/libkeymaster_portable.so \
+    $(LOCAL_PATH)/recovery/root/system/lib64/libkeystore-engine-wifi-hidl.so:recovery/root/system/lib64/libkeystore-engine-wifi-hidl.so
+
