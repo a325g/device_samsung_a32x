@@ -14,5 +14,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/system/lib64/android.hardware.keymaster@4.0.so:recovery/root/system/lib64/android.hardware.keymaster@4.0.so \
     $(LOCAL_PATH)/recovery/root/system/lib64/libkeymaster4.so:recovery/root/system/lib64/libkeymaster4.so \
     $(LOCAL_PATH)/recovery/root/system/lib64/libkeymaster_portable.so:recovery/root/system/lib64/libkeymaster_portable.so \
-    $(LOCAL_PATH)/recovery/root/system/lib64/libkeystore-engine-wifi-hidl.so:recovery/root/system/lib64/libkeystore-engine-wifi-hidl.so
-
+    $(LOCAL_PATH)/recovery/root/system/lib64/libkeystore-engine-wifi-hidl.so:recovery/root/system/lib64/libkeystore-engine-wifi-hidl.so \
+    $(LOCAL_PATH)/recovery/root/system/bin/hw/android.hardware.gatekeeper@1.0-service:recovery/root/system/bin/hw/android.hardware.gatekeeper@1.0-service \
+    $(LOCAL_PATH)/recovery/root/system/etc/init/android.hardware.gatekeeper@1.0-service.rc:recovery/root/system/etc/init/android.hardware.gatekeeper@1.0-service.rc
