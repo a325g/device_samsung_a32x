@@ -4,9 +4,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # MediaTek specific configurations
 TARGET_BOARD_PLATFORM := mt6853  # Replace with your actual chip code (e.g., mt6789, mt6877)
 
-# Inherit from DerpFest product configuration
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
-
 # Inherit from your custom device configuration
 $(call inherit-product, device/samsung/a32x/device.mk)
 
