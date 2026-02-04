@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_a32x.mk
+    $(LOCAL_DIR)/lineage_a32x.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_a32x-user \
-    twrp_a32x-userdebug \
-    twrp_a32x-eng
+    lineage_a32x-user \
+    lineage_a32x-userdebug \
+    lineage_a32x-eng
